@@ -47,7 +47,7 @@ export default function Home() {
 
               <div className="flex justify-between">
                 <button
-                  onClick={() => navigate("/edit", { state: post })}
+                  onClick={() => navigate(`/edit/${post.id}`)}
                   className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg text-sm"
                 >
                   Edit
