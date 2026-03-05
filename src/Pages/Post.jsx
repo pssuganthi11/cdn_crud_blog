@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Form from "../components/Form";
+import Form from "../Components/Form";
 
 export default function Post() {
   const navigate = useNavigate();

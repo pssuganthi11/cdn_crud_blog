@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import Form from "../components/Form";
+import Form from "../Components/Form";
 
 export default function Edit() {
   const location = useLocation();
