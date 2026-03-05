@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-200 ;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-cover bg-center bg-fixed;
+    background-image: url("https://img.freepik.com/free-photo/landscape-railay-beach-sunrise-krabi-thailand_335224-1398.jpg?semt=ais_hybrid&w=740&q=80");
+  }
+}
